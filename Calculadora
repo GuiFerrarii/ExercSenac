@@ -1,0 +1,70 @@
+from tkinter import *
+
+def entrada(valor):
+    lb['text'] += valor
+
+def limpar():
+    lb['text'] = ''
+
+def resultado():
+    x = eval(lb['text'])
+    lb['text'] = x
+
+
+
+root = Tk()
+root.title('Calculadora Senac')
+root.geometry('363x465')
+root.minsize(width=100, height=100)
+root.maxsize(width=363, height=465)
+root.grid_rowconfigure(0, weight=1)
+root.grid_rowconfigure(1, weight=1)
+root.grid_rowconfigure(2, weight=1)
+root.grid_rowconfigure(3, weight=1)
+root.grid_rowconfigure(4, weight=1)
+root.grid_columnconfigure(0, weight=1)
+root.grid_columnconfigure(1, weight=1)
+root.grid_columnconfigure(2, weight=1)
+root.grid_columnconfigure(3, weight=1)
+root.config(bg='black')
+
+
+
+lb = Label(root, text='', font='Arial 29',foreground='red',bg='black')
+bt1 = Button(root, text='1',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('1'))
+bt2 = Button(root, text='2',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('2'))
+bt3 = Button(root, text='3',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('3'))
+bt4 = Button(root, text='4',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('4'))
+bt5 = Button(root, text='5',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('5'))
+bt6 = Button(root, text='6',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('6'))
+bt7 = Button(root, text='7',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('7'))
+bt8 = Button(root, text='8',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('8'))
+bt9 = Button(root, text='9',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('9'))
+bt0 = Button(root, text='0',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('0'))
+btLim = Button(root, text='C',width=4,height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: limpar())
+btres = Button(root, text='=',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda:resultado())
+btmais = Button(root, text='+',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('+'))
+btmenos = Button(root, text='-',width=4, height=2,bg='grey',activebackground='red', font='Arial 24',  command=lambda: entrada('-'))
+btvezes = Button(root, text='x',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('*'))
+btdiv = Button(root, text='/',width=4, height=2,bg='grey',activebackground='red', font='Arial 24', command=lambda: entrada('/'))
+
+
+lb.grid(row=1,column=3)
+bt1.grid(row=4,column=3)
+bt2.grid(row=4,column=13)
+bt3.grid(row=4,column=25)
+bt4.grid(row=8,column=3)
+bt5.grid(row=8,column=13)
+bt6.grid(row=8,column=25)
+bt7.grid(row=12,column=3)
+bt8.grid(row=12,column=13)
+bt9.grid(row=12,column=25)
+bt0.grid(row=16,column=3)
+btLim.grid(row=16,column=25)
+btres.grid(row=16,column=13)
+btmais.grid(row=4,column=30)
+btmenos.grid(row=8,column=30)
+btvezes.grid(row=12,column=30)
+btdiv.grid(row=16,column=30)
+
+root.mainloop()
