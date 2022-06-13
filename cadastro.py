@@ -6,6 +6,7 @@ root.geometry('459x620')
 root.minsize(width=100, height=100)
 root.maxsize(width=459, height=620)
 
+#verifica data
 def data(event=None):
     x=in2_fr1.get().replace('/','')[:8]
     y=''
