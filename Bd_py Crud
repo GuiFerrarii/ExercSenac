@@ -1,0 +1,59 @@
+# Aula Crud
+import mysql.connector
+
+class CRUD:
+    def __init__(self):
+
+        self.conexao = mysql.connector.connect(
+            host='localhost',
+            user='root',
+            password='q1w2e3',
+            database='aula_crud'
+        )
+
+        # objeto capaz de chamar metodo do mysql
+        self.meu_cursor = self.conexao.cursor()
+
+# CRUD
+
+    #create
+    def create(self):
+        sql = 'insert into pessoas (nome, dataNasc) value (%s, %s)'
+        valores = ("Joõa", "1999-02-15")
+
+        self.meu_cursor.execute(sql, valores)
+        self.conexao.commit()
+
+
+
+
+
+    #Read
+    def read(self):
+        self.meu_cursor.execute('select * from pessoas')
+        lista = self.meu_cursor.fetchall()
+        for i in lista:
+            print(i)
+
+
+
+    #update
+    def update(self):
+        comando_sql = 'update pessoas ' \
+              'set nome = "Davi" ' \
+              'where id = "2"'
+        self.meu_cursor.execute(comando_sql)
+        self.conexao.commit()
+
+
+
+
+    #delete
+    def delete(self):
+        valor = int(input('Entre com o código: '))
+        comando_sql = f'delete from pessoas where id = {valor}'
+        self.meu_cursor.execute(comando_sql)
+        self.conexao.commit()
+
+obj_bd = CRUD()
+obj_bd.read()
