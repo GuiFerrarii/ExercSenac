@@ -1,0 +1,52 @@
+*{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+    
+    .BackGround{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+    
+    a {
+    
+    font-size: 28px;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    color: #FEA4D7;
+    position: fixed;
+    left: 1378px;
+    top: 27px;
+    padding: left;
+}
+
+    .haha {
+    
+    font-size: 28px;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    color: #FEA4D7;
+    position: fixed;
+    left: 1523px;
+    top: 27px;
+    padding: left;
+}
+
+    .cont {
+    
+    font-size: 28px;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    color: #FEA4D7;
+    position: fixed;
+    left: 1700px;
+    top: 27px;
+    padding: left;
+}
