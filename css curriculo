@@ -50,3 +50,17 @@
     top: 27px;
     padding: left;
 }
+
+.wpp {
+    
+    font-size: 15px;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    color: #FEA4D7;
+    position: fixed;
+    left: 1420px;
+    top: 729px;
+    padding: left;
+}
+
+
