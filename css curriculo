@@ -5,21 +5,22 @@
     
 }
     
-    .BackGround{
+.BackGround{
     width: 100%;
     height: 100vh;
-    background-image: url(bg.png);
+    background-image: url(tela3.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     
 }
     
-    a {
+a {
     
     font-size: 28px;
     text-decoration:none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
     color: #FEA4D7;
     position: fixed;
     left: 1378px;
@@ -27,23 +28,33 @@
     padding: left;
 }
 
-    .haha {
+a:hover {
+    color: white;
+  }
+
+.sobre {
     
     font-size: 28px;
     text-decoration:none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
     color: #FEA4D7;
     position: fixed;
-    left: 1523px;
+    left: 1558px;
     top: 27px;
     padding: left;
 }
 
-    .cont {
+.sobre:hover {
+    color: #f6f5f9;
+  }
+
+.cont {
     
     font-size: 28px;
     text-decoration:none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
     color: #FEA4D7;
     position: fixed;
     left: 1700px;
@@ -51,11 +62,17 @@
     padding: left;
 }
 
+.cont:hover {
+    color: #f6f5f9;
+  }
+
+
+
 .wpp {
     
     font-size: 15px;
     text-decoration:none;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
     color: #FEA4D7;
     position: fixed;
     left: 1420px;
@@ -63,4 +80,88 @@
     padding: left;
 }
 
+.Gui  {
+    
+    font-size: 40px;
+    text-decoration:none;
+    font-family: 'Montserrat Alternates', sans-serif; 
+    font-weight: bolder;
+    color: white;
+    position: fixed;
+    left: 507px;
+    top: 666px;
+    padding: left;
+}
+
+.dev  {
+    
+    font-size: 20px;
+    text-decoration:none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    color: #FEA4D7;
+    position: fixed;
+    left: 507px;
+    top: 750px;
+    padding: left;
+}
+
+.notification {
+    position: fixed;
+    display: inline-block;
+    max-width: 300px;
+    top: 200px;
+    left: 83px;
+    padding: 20px 15px;
+    border-radius: 8px;
+    background-color: #FFA4D8;
+    color: #f6f5f9;
+    font-size: 23px;
+    box-shadow: 0 1px 10px
+    rgba(0, 0, 0, .1);
+    transform: translateY(30px);
+    opacity: 0;
+    visibility: hidden;
+    animation: fade 15s linear
+    forwards;
+
+}
+
+.progress {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: 0;
+    height: 3px;
+    background-image:
+    linear-gradient(to right,#529bdb, #3250bf) ;
+    border-radius: 4px;
+    animation: progress 15s .25s
+    linear forwards;
+}
+
+@keyframes fade {
+    5% {
+        opacity: 1;
+        visibility: visible  ;
+        transform: translateY(0px);
+    }
+    98% {
+        opacity: 1px;
+        transform: translateY(0px);
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY();
+    }
+}
+
+@keyframes progress {
+    to {
+        width: calc(100% - 10px);
+    }
+}
 
