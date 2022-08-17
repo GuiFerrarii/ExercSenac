@@ -12,7 +12,7 @@
 
 <a href="https://github.com/GuiFerrarii">Projetos</a>
 
-<div><a class="haha" href=https://www.linkedin.com/in/guilherme-ferrari-20b508226/>Sobre Mim</a1>
+<div><a class="sobre" href=https://www.linkedin.com/in/guilherme-ferrari-20b508226/>Sobre</a1>
 </div>
 
 <div><a class="cont" href=https://developer.mozilla.org/pt-BR/docs/Web/HTML/>Contatos</a1>
@@ -23,6 +23,18 @@
 </a>
 </div>
 
+<div class="notification">
+    <p>As minhas principais skills são HTML e CSS </p>
+    <span class="progress"></span>
+</div>
+
+<div class="Gui">
+    <p>Gui Ferrari</p>
+</div>
+
+<div class="dev">
+    <p>Desenvolvedor</p>
+</div>
 
     
 </body>
