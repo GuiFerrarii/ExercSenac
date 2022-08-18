@@ -10,12 +10,14 @@
 <body>
     <div class="BackGround"></div>
 
-<a href="https://github.com/GuiFerrarii">Projetos</a>
+<div><a class="proj" href=https://github.com/GuiFerrarii/>Projetos</a>
+ </div>
 
-<div><a class="sobre" href=https://www.linkedin.com/in/guilherme-ferrari-20b508226/>Sobre</a1>
+<div><a class="sobre" href=https://www.linkedin.com/in/guilherme-ferrari-20b508226/>Sobre</a>
 </div>
 
-<div><a class="cont" href=https://developer.mozilla.org/pt-BR/docs/Web/HTML/>Contatos</a1>
+<div><a class="cont" href=https://developer.mozilla.org/pt-BR/docs/Web/HTML/>Contatos</a>
+    
 </div>
 
 <div><a class="wpp" href=https://api.whatsapp.com/send?phone=5535998494290&text=GuiFerrari>
@@ -24,7 +26,7 @@
 </div>
 
 <div class="notification">
-    <p>As minhas principais skills são HTML e CSS </p>
+    <p>As minhas principais skills são HTML, CSS e aprendendo javaScript </p>
     <span class="progress"></span>
 </div>
 
@@ -35,6 +37,8 @@
 <div class="dev">
     <p>Desenvolvedor</p>
 </div>
+
+
 
     
 </body>
