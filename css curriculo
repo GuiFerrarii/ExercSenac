@@ -1,5 +1,4 @@
 
-
 *{
     margin:0px ;
     padding: 0px;
@@ -124,32 +123,60 @@
 
 .Gui  {
     
-    font-size: 40px;
+    font-size: 42px;
     text-decoration:none;
     font-family: 'Montserrat Alternates', sans-serif; 
     font-weight: bolder;
-    color: white;
+    color: #FEA4D7;
     position: fixed;
-    left: 507px;
-    top: 666px;
+    left: 1039px;
+    top: 345px;
     padding: left;
 }
 
+.ola {
+    font-size: 40px;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: fixed;
+    left: 920px;
+    top: 215px;
+}
+.estu {
+    font-size: 27px;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: fixed;
+    left: 920px;
+    top: 494px;
+}
 
-  
+.eu {
+    font-size: 31px;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: fixed;
+    left: 920px;
+    top: 355px;
+}
+
+
  
 
 
 .dev  {
     
-    font-size: 20px;
+    font-size: 42px;
     text-decoration:none;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bolder;
     color: #FEA4D7;
     position: fixed;
-    left: 509px;
-    top: 750px;
+    left: 1177px;
+    top: 482px;
     padding: left;
 }
 
@@ -213,7 +240,6 @@
         width: calc(100% - 10px);
     }
 }
-
 
 
 
