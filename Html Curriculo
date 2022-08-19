@@ -35,8 +35,22 @@
 </div>
 
 <div class="dev">
-    <p>Desenvolvedor</p>
+    <p>programação</p>
 </div>
+
+<div class="ola">
+    <p>olá,</p>
+</div>
+
+<div class="eu">
+    <p>Eu sou </p>
+</div>
+
+
+<div class="estu">
+    <p>Um estudante de </p>
+</div>
+
 
 
     
