@@ -1,4 +1,5 @@
 
+
 *{
     margin:0px ;
     padding: 0px;
@@ -103,7 +104,6 @@
     width: 91%;
     background-color: #f6f5f9;
     display: block;
-    
  }
 
  
@@ -135,23 +135,8 @@
     padding: left;
 }
 
-.Gui::after {
-    content:"";
-    color: #f6f5f9; 
-    display: block;
-    transition: .5s ease-out;
-       
-  }
 
   
-
- .Gui:hover::after{
-    content:"";
-    height: 2px;
-    width: 91%;
-    background-color: #f6f5f9;
-    display: block;
-  }
  
 
 
@@ -167,6 +152,8 @@
     top: 750px;
     padding: left;
 }
+
+
 
 .notification {
     position: fixed;
@@ -184,7 +171,7 @@
     transform: translateY(30px);
     opacity: 0;
     visibility: hidden;
-    animation: fade 15s linear
+    animation: fade 13s linear
     forwards;
 
 }
@@ -198,7 +185,7 @@
     background-image:
     linear-gradient(to right,#529bdb, #3250bf) ;
     border-radius: 4px;
-    animation: progress 15s .25s
+    animation: progress 13s .25s
     linear forwards;
 }
 
@@ -226,5 +213,8 @@
         width: calc(100% - 10px);
     }
 }
+
+
+
 
 
