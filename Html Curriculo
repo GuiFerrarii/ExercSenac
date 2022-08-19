@@ -31,34 +31,19 @@
     <span class="progress"></span>
 </div>
 
-<div class="Gui">
-    <p>Gui Ferrari</p>
-</div>
 
-<div class="dev">
-    <p>programação</p>
-    
-</div>
 <div class="dev2">
     <p>Desenvolvedor</p>
     <span class="txt"></span>
 </div>
 
-
-
-
-<div class="ola">
-    <p>olá,</p>
+<div class="notification22">
+    <h1>Olá, </h1>
+    <p1>Eu sou Gui Ferrari,</p1>
+    <p2>e estudo programação</p2>
+    <span class="progress2"></span>
 </div>
 
-<div class="eu">
-    <p>Eu sou </p>
-</div>
-
-
-<div class="estu">
-    <p>E estudo  </p>
-</div>
 
 
 
