@@ -160,7 +160,7 @@
     transform: translateY(30px);
     opacity: 0;
     visibility: hidden;
-    animation: fade 14s linear
+    animation: fade 20s linear
     forwards;
 
 }
@@ -174,7 +174,7 @@
     background-image:
     linear-gradient(to right,#529bdb, #3250bf) ;
     border-radius: 4px;
-    animation: progress 14s .25s
+    animation: progress 20s .25s
     linear forwards;
 }
 
@@ -223,7 +223,7 @@
     transform: translateY(30px);
     opacity: 0;
     visibility: hidden;
-    animation: fade 60s linear
+    animation: fade 100s linear
     forwards;
 
 }
@@ -237,7 +237,7 @@
     background-image:
     linear-gradient(to right,#529bdb, #3250bf) ;
     border-radius: 4px;
-    animation: progress 60s .25s
+    animation: progress 100s .25s
     linear forwards;
 }
 
