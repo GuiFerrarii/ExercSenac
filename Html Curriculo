@@ -26,7 +26,8 @@
 </div>
 
 <div class="notification">
-    <p>As minhas principais skills são HTML, CSS e aprendendo javaScript </p>
+    <p1>As minhas principais skills: </p1>
+    <p2>HTML/CSS e PYTHON  </p2>
     <span class="progress"></span>
 </div>
 
@@ -36,7 +37,15 @@
 
 <div class="dev">
     <p>programação</p>
+    
 </div>
+<div class="dev2">
+    <p>Desenvolvedor</p>
+    <span class="txt"></span>
+</div>
+
+
+
 
 <div class="ola">
     <p>olá,</p>
@@ -48,7 +57,7 @@
 
 
 <div class="estu">
-    <p>Um estudante de </p>
+    <p>E estudo  </p>
 </div>
 
 
