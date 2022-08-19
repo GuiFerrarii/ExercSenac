@@ -1,4 +1,5 @@
 
+
 *{
     margin:0px ;
     padding: 0px;
@@ -120,63 +121,6 @@
     padding: left;
 }
 
-.Gui  {
-    
-    font-size: 42px;
-    text-decoration:none;
-    font-family: 'Montserrat Alternates', sans-serif; 
-    font-weight: bolder;
-    color: #FEA4D7;
-    position: fixed;
-    left: 1031px;
-    top: 345px;
-    padding: left;
-}
-
-.ola {
-    font-size: 40px;
-    text-decoration:none;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    position: fixed;
-    left: 920px;
-    top: 215px;
-}
-.estu {
-    font-size: 27px;
-    text-decoration:none;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    position: fixed;
-    left: 920px;
-    top: 494px;
-}
-
-.eu {
-    font-size: 31px;
-    text-decoration:none;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    position: fixed;
-    left: 920px;
-    top: 355px;
-}
-
-
-
-.dev  {
-    
-    font-size: 42px;
-    text-decoration:none;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: bolder;
-    color: #FEA4D7;
-    position: fixed;
-    left: 1039px;
-    top: 482px;
-    padding: left;
-}
-
 .dev2  {
     
     font-size: 16px;
@@ -203,6 +147,7 @@
     position: fixed;
     display: inline-block;
     max-width: 300px;
+    font-family: 'Montserrat Alternates', sans-serif;   
     top: 200px;
     left: 65px;
     padding: 20px 15px;
@@ -260,6 +205,66 @@
     }
 }
 
+
+.notification22 {
+    position: fixed;
+    display: inline-block;
+    font-family: 'Montserrat Alternates', sans-serif;   
+    max-width: 450px;
+    top: 299px;
+    left: 920px;
+    padding: 20px 20px;
+    border-radius: 8px;
+    background-color: #FFA4D8;
+    color: #0f267a;
+    font-size: 40px;
+    box-shadow: 0 1px 10px
+    rgba(0, 0, 0, .1);
+    transform: translateY(30px);
+    opacity: 0;
+    visibility: hidden;
+    animation: fade 60s linear
+    forwards;
+
+}
+
+.progress2 {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: 0;
+    height: 3px;
+    background-image:
+    linear-gradient(to right,#529bdb, #3250bf) ;
+    border-radius: 4px;
+    animation: progress 60s .25s
+    linear forwards;
+}
+
+@keyframes fade {
+    5% {
+        opacity: 1;
+        visibility: visible  ;
+        transform: translateY(0px);
+    }
+    98% {
+        opacity: 1px;
+        transform: translateY(0px);
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY();
+    }
+}
+
+@keyframes progress2 {
+    to {
+        width: calc(100% - 10px);
+    }
+}
 
 
 
