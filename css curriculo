@@ -1,5 +1,4 @@
 
-
 *{
     margin:0px ;
     padding: 0px;
@@ -147,11 +146,15 @@
     position: fixed;
     display: inline-block;
     max-width: 300px;
-    font-family: 'Montserrat Alternates', sans-serif;   
+    font-family: 'Montserrat Alternates', sans-serif;  
+    font-weight: bolder; 
     top: 200px;
     left: 65px;
     padding: 20px 15px;
-    border-radius: 8px;
+    border-top-left-radius: 39px;
+    border-top-right-radius: 39px ;
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius:2px ;
     background-color: #FFA4D8;
     color: #0f267a;
     font-size: 23px;
@@ -160,22 +163,23 @@
     transform: translateY(30px);
     opacity: 0;
     visibility: hidden;
-    animation: fade 20s linear
+    animation: fade 24s linear
     forwards;
 
 }
 
 .progress {
     position: absolute;
-    left: 5px;
-    bottom: 5px;
+    left: 15px;
+    bottom: 7px;
     width: 0;
     height: 3px;
     background-image:
     linear-gradient(to right,#529bdb, #3250bf) ;
-    border-radius: 4px;
-    animation: progress 20s .25s
+    border-radius: 8px;
+    animation: progress 24s .25s
     linear forwards;
+   
 }
 
 
@@ -201,7 +205,9 @@
 
 @keyframes progress {
     to {
-        width: calc(100% - 10px);
+        margin-left: 0%;
+        width: 94%;
+        
     }
 }
 
@@ -209,21 +215,25 @@
 .notification22 {
     position: fixed;
     display: inline-block;
-    font-family: 'Montserrat Alternates', sans-serif;   
-    max-width: 450px;
+    font-family: 'Montserrat Alternates', sans-serif;  
+    font-weight: bolder; 
+    max-width: 300px;
     top: 299px;
     left: 920px;
     padding: 20px 20px;
-    border-radius: 8px;
+    border-top-left-radius: 39px;
+    border-top-right-radius: 39px ;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius:29px ;
     background-color: #FFA4D8;
     color: #0f267a;
-    font-size: 40px;
+    font-size: 25px;
     box-shadow: 0 1px 10px
     rgba(0, 0, 0, .1);
     transform: translateY(30px);
     opacity: 0;
     visibility: hidden;
-    animation: fade 100s linear
+    animation: fade 98s linear
     forwards;
 
 }
@@ -237,7 +247,7 @@
     background-image:
     linear-gradient(to right,#529bdb, #3250bf) ;
     border-radius: 4px;
-    animation: progress 100s .25s
+    animation: progress 97s .25s
     linear forwards;
 }
 
@@ -265,6 +275,8 @@
         width: calc(100% - 10px);
     }
 }
+
+
 
 
 
