@@ -26,8 +26,8 @@
 </div>
 
 <div class="notification">
-    <p1>As minhas principais skills: </p1>
-    <p2>HTML/CSS e PYTHON  </p2>
+    <p1>As minhas principais skills:</p1>
+    <p2> HTML/CSS e PYTHON  </p2>
     <span class="progress"></span>
 </div>
 
@@ -38,13 +38,10 @@
 </div>
 
 <div class="notification22">
-    <h1>Olá, </h1>
-    <p1>Eu sou Gui Ferrari,</p1>
-    <p2>e estudo programação</p2>
+    <h1>Olá,</h1>
+    <p1>Eu sou Gui Ferrari e estudo programação</p1>
     <span class="progress2"></span>
 </div>
-
-
 
 
     
