@@ -120,25 +120,7 @@
     padding: left;
 }
 
-.dev2  {
-    
-    font-size: 16px;
-    text-decoration:none;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: bolder;
-    color: #FEA4D7;
-    position: fixed;
-    left: 558px;
-    top: 700px;
-    padding: left;
-    
-    
-}
 
-.dev2:hover {
-    color: #f6f5f9;
-    cursor: pointer;
-}
 
 
 
@@ -148,7 +130,7 @@
     max-width: 300px;
     font-family: 'Montserrat Alternates', sans-serif;  
     font-weight: bolder; 
-    top: 200px;
+    top: 192px;
     left: 65px;
     padding: 20px 15px;
     border-top-left-radius: 39px;
@@ -163,7 +145,7 @@
     transform: translateY(30px);
     opacity: 0;
     visibility: hidden;
-    animation: fade 24s linear
+    animation: fade 29s linear
     forwards;
 
 }
@@ -177,7 +159,7 @@
     background-image:
     linear-gradient(to right,#529bdb, #3250bf) ;
     border-radius: 8px;
-    animation: progress 24s .25s
+    animation: progress 29s 
     linear forwards;
    
 }
@@ -230,10 +212,10 @@
     font-size: 25px;
     box-shadow: 0 1px 10px
     rgba(0, 0, 0, .1);
-    transform: translateY(30px);
+    transform: scale();
     opacity: 0;
     visibility: hidden;
-    animation: fade 98s linear
+    animation: fade 120s linear
     forwards;
 
 }
@@ -247,12 +229,12 @@
     background-image:
     linear-gradient(to right,#529bdb, #3250bf) ;
     border-radius: 4px;
-    animation: progress 97s .25s
+    animation: progress 120s
     linear forwards;
 }
 
 @keyframes fade {
-    5% {
+    2% {
         opacity: 1;
         visibility: visible  ;
         transform: translateY(0px);
@@ -272,13 +254,8 @@
 
 @keyframes progress2 {
     to {
-        width: calc(100% - 10px);
+        margin-left: 0%;
+        width: 94%;
     }
 }
-
-
-
-
-
-
 
